@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Poppins;
+  src: url("./assets/fonts/Poppins.ttf");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter.ttf");
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}

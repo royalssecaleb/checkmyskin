@@ -1,0 +1,15 @@
+.button-group .ant-btn {
+  height: auto;
+}
+
+.button-icons {
+  width: 25px;
+  height: 25px;
+}
+
+.doctor-name-radio {
+  font-size: 20px !important;
+}
+/* .ant-btn .ant-btn-default .ant-btn-lg .hide-button {
+  display: none !important;
+} */

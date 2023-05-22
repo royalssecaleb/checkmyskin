@@ -1,0 +1,129 @@
+.footer {
+  background: #0b0d17;
+  padding: 64px 0;
+}
+
+.footer-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-check {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+.footer-myskin {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.05em;
+  color: #576b62;
+}
+
+.footer-lists-mobile {
+  display: none !important;
+}
+
+.footer-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  /* width: max-content; */
+}
+
+.footer-list {
+  margin: 0 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  /* width: max-content; */
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-icon {
+  margin: 0 10px;
+  width: 24px;
+  height: 24px;
+  background: #23252e;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-list {
+    justify-content: unset;
+    padding: 0;
+  }
+  .footer-icons {
+    margin-top: 15px;
+  }
+  .footer-icon {
+    margin: 0;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer {
+    padding: 40px 16px;
+  }
+  .footer-header {
+    justify-content: unset;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    text-align: left;
+    align-items: unset;
+    padding: 0;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .footer-lists-mobile {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-lists {
+    justify-content: flex-start !important;
+  }
+
+  .footer-lists-desktop {
+    display: none !important;
+  }
+}

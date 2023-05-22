@@ -1,0 +1,118 @@
+.doctor-login-contents {
+  padding: 100px 0;
+  text-align: left !important;
+  min-height: 100vh !important;
+}
+
+.doctor-login-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.doctor-login-h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+}
+
+.doctor-login-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #5a7386;
+}
+
+.forgot-password {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #576b62;
+  cursor: pointer;
+}
+
+.err-recaptcha {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #ff4d4d;
+  cursor: pointer;
+}
+
+.doctor-account-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #5a7386;
+}
+
+.register-now {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #576b62;
+  cursor: pointer;
+}
+
+.doctor-login-image {
+  background-image: url("../image/doctor2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.ant-picker {
+  height: 45px !important;
+  border-radius: 8px !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #6d7588;
+}
+
+.input-error {
+  color: red;
+}
+
+.input-password-valid-show {
+  display: block !important;
+}
+
+.input-password-valid-hide {
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .doctor-login-image {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .doctor-login-h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}

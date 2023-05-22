@@ -1,0 +1,459 @@
+.upload-alert {
+  padding: 0 20%;
+}
+
+.ant-upload-drag {
+  height: 320px !important;
+}
+
+.ant-btn {
+  line-height: 0 !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-feature-settings: "salt" on, "liga" off;
+}
+
+.ant-alert-warning {
+  background-color: #eef0ef !important;
+  border-color: #576b62 !important;
+  border-radius: 5px !important;
+}
+
+.ant-alert-message {
+  color: #576b62 !important;
+}
+
+.ant-alert-warning .ant-alert-icon {
+  color: #292d32 !important;
+}
+
+.ant-upload-drag-icon {
+  font-size: 35px;
+}
+
+.ant-upload-drag-icon {
+  color: #919299 !important;
+}
+
+.ant-select-selection-item {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #6d7588;
+}
+
+.ant-upload-text {
+  color: #919299 !important;
+}
+
+.ant-steps-item-title {
+  font-weight: 700;
+  line-height: 24px !important;
+}
+
+.ant-btn-lg {
+  border-radius: 6px !important;
+  padding: 16px 24px !important;
+  height: 56px !important;
+}
+
+.steps-container .ant-col {
+  width: 100% !important;
+}
+
+.ant-steps-label-vertical .ant-steps-item-tail {
+  margin-left: 54px !important;
+  padding: 8px 10px !important;
+}
+
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail:after {
+  background-color: #576b62 !important;
+}
+
+.ant-input-number,
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 8px !important;
+  text-align: left;
+}
+
+.ant-form-item-label > label {
+  font-weight: 700;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #404044;
+}
+
+.ant-input-number-input,
+.ant-select-selector,
+.ant-select:not(.ant-select-customize-input)
+  .ant-select-selector
+  .ant-select-selection-search-input {
+  height: 45px !important ;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #6d7588 !important;
+}
+
+.ant-select-selection-placeholder {
+  line-height: 45x !important;
+  display: flex;
+  align-items: center;
+}
+
+.slide-wrapper {
+  position: relative;
+  padding: 0 0 0 40px;
+}
+
+.slider-value {
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: -5px;
+  width: 16px;
+  height: 16px;
+  left: 0;
+}
+
+.slider-value span {
+  font-weight: 700;
+}
+
+.ant-input {
+  height: 45px !important;
+  border-radius: 8px !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #6d7588;
+}
+
+.ant-input-password {
+  /* height: 50px !important; */
+  border-radius: 8px !important;
+}
+
+.ant-input-password .ant-input {
+  height: 40px !important;
+}
+
+.info-checkbox {
+  text-align: left !important;
+}
+
+.info-checkbox p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #000000;
+}
+
+label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #000000;
+}
+
+.pay-now-card-form {
+  width: 100%;
+}
+.pay-now-container {
+  display: flex !important;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: flex-start !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #ffffff;
+}
+
+.pay-now-container p {
+  text-align: left !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #5a7386;
+  width: 90%;
+}
+
+.order-summary-container {
+  background: #f9f9f9;
+  border-radius: 16px;
+  padding: 30px;
+  width: 100vw;
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ant-divider-horizontal {
+  margin: 10px 0 !important;
+}
+
+.pay-receivce label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #404044;
+}
+
+.pay-receivce p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #5a7386;
+}
+
+.steps-container {
+  width: 70% !important;
+  margin: 0 auto !important;
+}
+
+.check-status-container {
+  text-align: left !important;
+}
+
+.order-summary-div {
+  display: flex !important  ;
+}
+
+.space-between-label {
+  text-align: left !important;
+}
+
+.space-between-price {
+  text-align: right !important;
+}
+
+.check-status-contents {
+  display: flex !important;
+  text-align: left !important;
+}
+
+.check-status-code {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 24px 80px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #576b62;
+}
+
+.check-status-code-copy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #576b62 !important;
+}
+
+.mobile-show {
+  display: none !important;
+}
+
+.mobile-hide {
+  display: flex !important;
+}
+
+.check-status-code-copy:hover {
+  background: none !important;
+}
+
+.checkout-email {
+  border-radius: 6px;
+  margin-bottom: 16px;
+  padding: 12px;
+  border: 1px solid rgba(50, 50, 93, 0.1);
+  max-height: 44px;
+  font-size: 16px;
+  width: 100%;
+  background: white;
+  box-sizing: border-box;
+}
+
+#payment-message {
+  color: rgb(105, 115, 134);
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+#payment-element {
+  margin-bottom: 24px;
+}
+
+#payment-form {
+  width: 100%;
+  /* min-width: 400px; */
+  align-self: center;
+  box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
+    0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  padding: 40px;
+}
+
+.payment-modal {
+  width: 35vw;
+  min-width: 350px;
+}
+
+.spinner,
+.spinner:before,
+.spinner:after {
+  border-radius: 50%;
+}
+
+.spinner {
+  color: #ffffff;
+  font-size: 22px;
+  text-indent: -99999px;
+  margin: 0px auto;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset 0 0 0 2px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.spinner:before,
+.spinner:after {
+  position: absolute;
+  content: "";
+}
+
+.spinner:before {
+  width: 10.4px;
+  height: 20.4px;
+  background: #576b62;
+  border-radius: 20.4px 0 0 20.4px;
+  top: -0.2px;
+  left: -0.2px;
+  -webkit-transform-origin: 10.4px 10.2px;
+  transform-origin: 10.4px 10.2px;
+  -webkit-animation: loading 2s infinite ease 1.5s;
+  animation: loading 2s infinite ease 1.5s;
+}
+
+.spinner:after {
+  width: 10.4px;
+  height: 10.2px;
+  background: #576b62;
+  border-radius: 0 10.2px 10.2px 0;
+  top: -0.1px;
+  left: 10.2px;
+  -webkit-transform-origin: 0px 10.2px;
+  transform-origin: 0px 10.2px;
+  -webkit-animation: loading 2s infinite ease;
+  animation: loading 2s infinite ease;
+}
+
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Buttons and links */
+.pay-now-btn {
+  background: #576b62;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 0;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  transition: all 0.2s ease;
+  box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+  width: 100%;
+}
+
+.pay-now-btn:hover {
+  filter: contrast(115%);
+}
+
+.pay-now-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+@media only screen and (max-width: 768px) {
+  .upload-alert {
+    padding: 0;
+  }
+  .steps-container {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .mobile-show {
+    display: flex !important;
+  }
+  .mobile-hide {
+    display: none !important;
+  }
+}

@@ -1,0 +1,38 @@
+.pay-confirm-btn {
+  padding: 25px 35px !important;
+  border-radius: 8px !important;
+}
+
+.receipt-no {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+}
+
+.receipt-no label {
+  margin-right: 10px;
+}
+
+.receipt-no input {
+  width: 50% !important;
+}
+
+.payment-info-doctor {
+  display: flex !important;
+  flex-direction: row;
+}
+
+.payment-info-doctor p {
+  margin-left: 10px;
+}
+
+.checkskin-checkbox {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.checkskin-checkbox-transaction {
+  display: flex !important;
+  justify-content: end;
+}

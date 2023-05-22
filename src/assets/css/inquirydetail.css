@@ -1,0 +1,99 @@
+.inquiry-header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+  text-align: left !important;
+}
+
+.inquiry-submit-date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #5a7386;
+  text-align: left !important;
+}
+
+.inquiry-info-col {
+  background: #f9f9f9;
+  border-radius: 16px;
+}
+
+.inquiry-info-col h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #404044;
+  text-align: left !important;
+}
+
+.inquiry-info-detail {
+  text-align: left !important;
+}
+
+.inquiry-info-detail label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #6d7588;
+}
+
+.inquiry-info-detail p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #404044;
+}
+
+.inquiry-info-detail span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #404044;
+}
+
+.response-items {
+  background: #f9f9f9;
+  border: 2px solid #f9f9f9;
+  border-radius: 16px;
+}
+
+.response-item-select {
+  background: #f9f9f9;
+  border: 2px solid #576b62;
+  border-radius: 16px;
+}
+
+.response-item {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left !important;
+  flex-direction: column;
+}
+
+.doctor-answer {
+  flex-direction: column;
+}
+
+.doctor-answer span.ant-radio + * {
+  margin-top: 10px;
+  padding-left: 0 !important;
+}

@@ -1,0 +1,106 @@
+enum ClinicType {
+  MOLE
+  RASH
+}
+
+type DoctorResponse {
+  value: Int
+  answer: String
+}
+
+type Clinic @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  description: String
+  standardResponses: [DoctorResponse]
+  active: Boolean
+  rateInAus: Float
+  taxInAus: Float
+  type: ClinicType!
+  doctorsID: [String]
+}
+
+enum PaymentStatus {
+  PAID
+  REFUND
+  COMPLETE
+  FINISH
+}
+
+enum CheckSkinStatus {
+  OPENED
+  ANSWERED
+}
+
+enum CheckSkinType {
+  MOLE
+  RASH
+}
+
+type CheckSkin @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  email: AWSEmail
+  age: Int
+  gender: GenderEnum
+  type: CheckSkinType
+  image: String
+  usercode: String
+  checkskinstatus: CheckSkinStatus
+  long: String
+  melanoma: String
+  dermatologist: String
+  diameter: Int
+  factors: AWSJSON
+  severe: String
+  relevant: String
+  distributed: AWSJSON
+  rashLocation: AWSJSON
+  rashType: AWSJSON
+  symptoms: AWSJSON
+  doctorAnswer: Int
+  payment_id: String
+  payment_status: PaymentStatus
+  doctorID: String
+  clinicID: String
+  customer_id: String
+}
+
+enum GenderEnum {
+  MALE
+  FEMALE
+}
+
+type Doctor @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  firstname: String!
+  lastname: String
+  email: AWSEmail
+  gender: GenderEnum
+  dob: AWSDate
+  password: String
+  phone: String
+  address: String
+  bankdetail: String
+  specialised: String
+  status: Boolean
+  checkskinsID: [String]
+  clinicID: String
+  payRate: Float
+}
+
+type Admin @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String
+  password: String
+  verifyCode: String
+}
+
+type Transaction @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  DoctorID: String
+  usercodes: [String]
+  recept_no: String
+  last_payment_date: String
+  total_amount: Float
+}
+ 

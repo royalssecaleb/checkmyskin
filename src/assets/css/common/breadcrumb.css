@@ -1,0 +1,18 @@
+.check-skin-breadcrumb {
+  font-family: "Poppins";
+  font-style: normal !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: #576b62 !important;
+}
+
+.check-skin-breadcrumb .breadcrumb-home a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.check-skin-breadcrumb .breadcrumb-check-skin a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #576b62 !important;
+}

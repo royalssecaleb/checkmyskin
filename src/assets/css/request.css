@@ -1,0 +1,97 @@
+.request-header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+  text-align: left !important;
+}
+
+.request-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #5a7386;
+  text-align: left !important;
+}
+
+.ant-tabs-tab-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #94a8b8;
+}
+
+.ant-tabs-ink-bar {
+  height: 4px !important;
+  border-radius: 50px;
+}
+
+.ant-table-thead
+  > tr
+  > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan]):before {
+  height: 0 !important;
+}
+
+.ant-table-thead > tr > th {
+  background-color: transparent !important;
+}
+
+.ant-table-thead > tr > td {
+  background-color: transparent !important;
+}
+
+th {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 150% !important;
+  color: #272833 !important;
+}
+
+.usercode {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #576b62;
+}
+
+.table-tbody {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #272833;
+  cursor: pointer;
+}
+
+.table-status {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #576b62;
+  background: #f2fcf8;
+  border-radius: 25px;
+  padding: 5px 12px;
+}
+
+@media only screen and (max-width: 576px) {
+  .request-header {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}

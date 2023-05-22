@@ -1,0 +1,47 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-checkmyskin-dev-143754-authRole",
+      "UnauthRoleArn": "arn:aws:iam::499862140095:role/amplify-checkmyskin-dev-143754-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::499862140095:role/amplify-checkmyskin-dev-143754-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-checkmyskin-dev-143754-deployment",
+      "UnauthRoleName": "amplify-checkmyskin-dev-143754-unauthRole",
+      "StackName": "amplify-checkmyskin-dev-143754",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:499862140095:stack/amplify-checkmyskin-dev-143754/584543b0-ac32-11ed-9661-0a3e72f351ca",
+      "AmplifyAppId": "d5tfyvom9rajf",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-checkmyskin-dev-143754-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "checkmyskind5e1f048": {}
+      },
+      "api": {
+        "checkmyskin": {},
+        "sendmailapi": {},
+        "stripeapi": {}
+      },
+      "storage": {
+        "storage": {}
+      },
+      "function": {
+        "forgotpasswordfunc": {
+          "deploymentBucketName": "amplify-checkmyskin-dev-143754-deployment",
+          "s3Key": "amplify-builds/forgotpasswordfunc-5751584559306e4d5978-build.zip"
+        },
+        "patientsendmailfunc": {
+          "deploymentBucketName": "amplify-checkmyskin-dev-143754-deployment",
+          "s3Key": "amplify-builds/patientsendmailfunc-51455a5875716a72662f-build.zip"
+        },
+        "checkoutfunc": {
+          "deploymentBucketName": "amplify-checkmyskin-dev-143754-deployment",
+          "s3Key": "amplify-builds/checkoutfunc-56537a446665356d6864-build.zip"
+        },
+        "refundfunc": {
+          "deploymentBucketName": "amplify-checkmyskin-dev-143754-deployment",
+          "s3Key": "amplify-builds/refundfunc-6a6e58744c795248664b-build.zip"
+        }
+      }
+    }
+  }
+}

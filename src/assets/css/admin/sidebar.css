@@ -1,0 +1,17 @@
+.ant-menu-item .ant-menu-item-icon,
+.ant-menu-item .anticon {
+  font-size: 20px !important;
+}
+
+.ant-menu-title-content {
+  font-size: 17px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.side-bar {
+  width: 100%;
+  height: calc(100vh - 64px) !important;
+}

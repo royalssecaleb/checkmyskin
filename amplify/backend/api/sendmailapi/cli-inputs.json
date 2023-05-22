@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/forgot-password": {
+      "name": "/forgot-password",
+      "lambdaFunction": "forgotpasswordfunc",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/patient-sendmail": {
+      "name": "/patient-sendmail",
+      "lambdaFunction": "patientsendmailfunc",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

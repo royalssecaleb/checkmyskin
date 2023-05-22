@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/checkout": {
+      "name": "/checkout",
+      "lambdaFunction": "checkoutfunc",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/refund": {
+      "name": "/refund",
+      "lambdaFunction": "refundfunc",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

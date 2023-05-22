@@ -1,0 +1,94 @@
+{
+  "howLogSkin": [
+    {
+      "key": "1",
+      "value": "Less than 1 year"
+    },
+    {
+      "key": "2",
+      "value": "Less than 5 years"
+    },
+    {
+      "key": "3",
+      "value": "More than 5 years"
+    },
+    {
+      "key": "4",
+      "value": "I don't know"
+    }
+  ],
+  "melanoma": [
+    {
+      "key": "1",
+      "value": "Yes"
+    },
+    {
+      "key": "2",
+      "value": "No"
+    },
+    {
+      "key": "3",
+      "value": "I don't know"
+    }
+  ],
+  "dermatologist": [
+    {
+      "key": "1",
+      "value": "Once a year"
+    },
+    {
+      "key": "2",
+      "value": "Every 2 years"
+    },
+    {
+      "key": "3",
+      "value": "Very Rare"
+    },
+    {
+      "key": "4",
+      "value": "Never"
+    }
+  ],
+  "severe": [
+    {
+      "key": "1",
+      "value": "Mild"
+    },
+    {
+      "key": "2",
+      "value": "Moderate"
+    },
+    {
+      "key": "3",
+      "value": "Severe"
+    }
+  ],
+  "specialised": [
+    {
+      "key": "1",
+      "value": "Mole"
+    },
+    {
+      "key": "2",
+      "value": "Rash"
+    },
+    {
+      "key": "3",
+      "value": "Both"
+    }
+  ],
+  "doctorAnswer": [
+    {
+      "key": "1",
+      "value": "Your skin lesion is rather harmless. If there are no changes in the next 6 months, everything is fine. If you do please contact a doctor or dermatologist immediately."
+    },
+    {
+      "key": "2",
+      "value": "Unfortunately, the picture quality of your photo is not sufficient. Please resend a photo with higher resolution."
+    },
+    {
+      "key": "3",
+      "value": "Your skin lesion is suspicious. Please show this skin change to a doctor or dermatologist immediately!"
+    }
+  ]
+}
